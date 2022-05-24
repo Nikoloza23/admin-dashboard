@@ -15,6 +15,24 @@
     }
   }
 
+  .dataTableTitle {
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    @include flex(center, space-between);
+
+    .link {
+      text-decoration: none;
+      color: green;
+      font-size: 16px;
+      font-weight: 400;
+      border: 1px solid green;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
   .cellWithStatus {
     padding: 5px;
     border-radius: 5px;

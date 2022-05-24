@@ -42,6 +42,8 @@ const Widget = ({ type }) => {
           />
         ),
       };
+      break;
+
     case "earning":
       data = {
         title: "EARNING",
@@ -55,6 +57,7 @@ const Widget = ({ type }) => {
         ),
       };
       break;
+
     case "balance":
       data = {
         title: "BALANCE",
